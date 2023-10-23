@@ -31,10 +31,10 @@ pipeline{
                 
                  	//copinig files one server to onther server we use scp command
                  	
-                 	sh "scp target/pets-app.war root@172.31.38.118:/opt/tomcat10/webapps/"
+                 	sh "scp ec2-user/pets-app.war root@172.31.38.118:/opt/tomcat10/webapps/"
 					   
 					// start tomcat
-					 sh "ssh root@172.31.38.118 /opt/tomcat10/bin/startup.sh"
+                    sh "ssh root@172.31.38.118 /opt/tomcat10/bin/startup.sh"
 }
                  
              }
