@@ -45,7 +45,7 @@ pipeline{
      
      post {
   success {
-     body: ''' Hi team build is sucessfully deployed
+    mail body: ''' Hi team build is sucessfully deployed
 
 Thank you
 
@@ -54,8 +54,5 @@ DevOps team''', subject: ' build secussfully deployed', to: 'chanducherry642@gma
 
   }
 }
-
-
-
 
 } 
