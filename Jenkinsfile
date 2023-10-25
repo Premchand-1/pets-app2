@@ -25,7 +25,7 @@ pipeline{
                 sshagent(['Tomcat']) {
 
        	// stop tomcat 
-					 sh "ssh -o StrictHostKeyChecking=no  root@172.31.24.87 /opt/tomcat10/bin/shutdown.sh"
+					 sh "ssh -o StrictHostKeyChecking=no  root@172.31.24.87 /opt/tomcat9/bin/shutdown.sh"
                  			    
                  	//copy war file to remote tomcat
                 
@@ -34,7 +34,7 @@ pipeline{
                  	sh "root/pets-app.war root@172.31.24.87:/opt/tomcat10/webapps/"
 					   
 					// start tomcat
-                    sh "ssh root@172.31.24.87 /opt/tomcat10/bin/startup.sh"
+                sh "ssh root@172.31.24.87 /opt/tomcat9/bin/startup.sh"
 }
                  
              }
