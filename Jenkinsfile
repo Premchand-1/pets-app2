@@ -42,7 +42,7 @@ pipeline{
                       
                   }
                   post {
-  success {
+  always{
   mail body: '''Hi Team app successfully deployed,
 
 Thank you,
