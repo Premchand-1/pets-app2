@@ -31,7 +31,7 @@ pipeline{
                 
                  	//copinig files one server to onther server we use scp command
                  	
-                 	sh "target/pets-app.war root@172.31.24.87:/opt/tomcat9/webapps/"
+                 	sh "scp target/pets-app.war root@172.31.24.87:/opt/tomcat9/webapps/"
 					   
 					// start tomcat
                 sh "ssh root@172.31.24.87 /opt/tomcat9/bin/startup.sh"
