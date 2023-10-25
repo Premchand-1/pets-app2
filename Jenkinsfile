@@ -43,7 +43,7 @@ pipeline{
                   }
                   post {
   success {
-    mail body: '''Hi Team app successfully deployed,
+  mail body: '''Hi Team app successfully deployed,
 
 Thank you,
 DevOps,
