@@ -41,18 +41,15 @@ pipeline{
          }
          
      }
-     
-     
-     post {
+
+post {
   success {
-    mail body: ''' Hi team build is sucessfully deployed
+    mail body: '''Hi Team app successfully deployed,
 
-Thank you
-
-DevOps team''', subject: ' build secussfully deployed', to: 'chanducherry642@gmali.com'
-
-
+Thank you,
+DevOps,
+Prem.''', subject: 'successfully app deployed', to: 'chanducherry642@gmail.com'
   }
-}
-
+} 
+     
 } 
