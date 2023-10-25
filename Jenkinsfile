@@ -44,7 +44,7 @@ pipeline{
 
 post {
   success {
-    ecoh "sending email to team when deployeed successfully"
+    echo "sending email to team when deployeed successfully"
 }  
      
 } 
