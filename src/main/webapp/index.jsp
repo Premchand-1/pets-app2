@@ -141,9 +141,8 @@
           any device anywhere you like!
         </p>
         <div class="inline-block">
-          <img class="img1" src="🎵" />
           <div class="side">
-            <h4 class="anual">Annual Plan</h4>
+            <h4 class="anual">🎵💥Annual Plan</h4>
             <p class="price">$59.99/year</p>
           </div>
           <a href="/">change</a>
