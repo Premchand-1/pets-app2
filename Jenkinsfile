@@ -3,7 +3,7 @@ pipeline{
     parameters {
   string defaultValue: 'master', description: 'Choose to branches to deploye', name: 'branchName'
 }
-     stages{and
+     stages{
         stage('SCM checkout'){
             steps{
                  git branch: "${params['branchName']}",
