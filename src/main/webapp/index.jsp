@@ -127,7 +127,11 @@
   <body>
     <div class="main">
       <div class="flex">
-        <img class="img" src="images/illustration-hero.svg" alt="music list" />
+        <img
+          class="img"
+          src="https://pixabay.com/photos/headsets-music-pink-background-1971383/"
+          alt="music list"
+        />
       </div>
       <div class="prem">
         <h2>Order Summery</h2>
@@ -137,7 +141,10 @@
           any device anywhere you like!
         </p>
         <div class="inline-block">
-          <img class="img1" src="images/icon-music.svg" />
+          <img
+            class="img1"
+            src="https://www.google.com/url?sa=i&url=https%3A%2F%2Ficons8.com%2Fillustrations%2Fillustration%2Ftaxi-music&psig=AOvVaw0Sqe-n_yYsY1QXRjbw0O4a&ust=1698513399803000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCPiY2IbeloIDFQAAAAAdAAAAABAF"
+          />
           <div class="side">
             <h4 class="anual">Annual Plan</h4>
             <p class="price">$59.99/year</p>
