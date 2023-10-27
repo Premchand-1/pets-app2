@@ -54,7 +54,7 @@ pipeline{
                             ${BUILD_URL}
 thank you
 devops team
-prem""", subject:  "${JOB_NAME}  deployement failed ", to: 'chanducherry642@mgail.com'
+prem""", subject:  "${JOB_NAME}  deployement failed ", to: 'chanducherry642@gmail.com'
                 
                         } 
                   }             
