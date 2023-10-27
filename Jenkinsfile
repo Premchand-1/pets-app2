@@ -34,7 +34,7 @@ pipeline{
                                 sh "scp target/pets-app.war root@172.31.24.87:/opt/tomcat9/webapps/"
                           
                         // start tomcat
-                              sh "ssh root@172.31.24.87 /opt/tomcat9/bin/startup.sh
+                              sh "ssh root@172.31.24.87 /opt/tomcat9/bin/startup.sh"
               }
                               
                           }
@@ -56,7 +56,7 @@ pipeline{
                             ${BUILD_URL}
 thank you
 devops team
-prem""", subject:  "'${JOB_NAME}'  deployement failed '${BUILD_NUMBER}'  ", to: 'chanducherry642@mgail.com'
+prem""", subject:  "${JOB_NAME}  deployement failed ", to: 'chanducherry642@mgail.com'
                         }
 }
                   
