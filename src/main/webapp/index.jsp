@@ -143,7 +143,7 @@
         <div class="inline-block">
           <img
             class="img1"
-            src="https://images.pexels.com/photos/3721941/pexels-photo-3721941.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            src="https://cdn.iconscout.com/icon/premium/png-512-thumb/music-350-161392.png?f=webp&w=512"
           />
           <div class="side">
             <h4 class="anual">Annual Plan</h4>
