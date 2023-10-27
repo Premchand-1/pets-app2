@@ -127,7 +127,11 @@
   <body>
     <div class="main">
       <div class="flex">
-        <img class="img" src="images/illustration-hero.svg" alt="music list" />
+        <img
+          class="img"
+          src="https://images.pexels.com/photos/1105666/pexels-photo-1105666.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          alt="music list"
+        />
       </div>
       <div class="prem">
         <h2>Order Summery</h2>
