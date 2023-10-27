@@ -141,7 +141,10 @@
           any device anywhere you like!
         </p>
         <div class="inline-block">
-          <img class="img1" src="images/icon-music.svg" />
+          <img
+            class="img1"
+            src="https://images.pexels.com/photos/3721941/pexels-photo-3721941.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          />
           <div class="side">
             <h4 class="anual">Annual Plan</h4>
             <p class="price">$59.99/year</p>
