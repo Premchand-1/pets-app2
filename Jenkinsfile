@@ -13,8 +13,30 @@ pipeline{
             }
         }
          stage('Deploy-Dev'){
+            when {
+                branch 'develop'
+            }
+            
             steps{
               echo "deploy to dev" 
+            }
+        }
+         stage('Deploy-UAT'){
+            when {
+                branch 'staging'
+            }
+            
+            steps{
+              echo "deploy to staging " 
+            }
+        }
+         stage('Deploy-prod'){
+            when {
+                branch 'master'
+            }
+            
+            steps{
+              echo "deploy to prod" 
             }
         }
      }
