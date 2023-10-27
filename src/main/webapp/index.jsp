@@ -127,11 +127,7 @@
   <body>
     <div class="main">
       <div class="flex">
-        <img
-          class="img"
-          src="file:///C:/Users/chand/OneDrive/Desktop/Music_play%F0%9F%92%A5/images/illustration-hero.svg"
-          alt="music list"
-        />
+        <img class="img" src="images/illustration-hero.svg" alt="music list" />
       </div>
       <div class="prem">
         <h2>Order Summery</h2>
@@ -141,10 +137,7 @@
           any device anywhere you like!
         </p>
         <div class="inline-block">
-          <img
-            class="img1"
-            src="file:///C:/Users/chand/OneDrive/Desktop/Music_play%F0%9F%92%A5/images/icon-music.svg"
-          />
+          <img class="img1" src="images/icon-music.svg" />
           <div class="side">
             <h4 class="anual">Annual Plan</h4>
             <p class="price">$59.99/year</p>
