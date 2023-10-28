@@ -1,40 +1,17 @@
 pipeline{
-    agent any 
-  
-     stages{
-     
-         stage('Maven Build'){
-             steps{
-                 sh 'mvn clean package'
-                 
-             }
-         }
-          stage('Deploye - Dev'){
-            when{
-              branch 'develop'
+    agent any
+    stages{
+        stage('parallel'){
+            steps{
+                parallel(
+                    tast1:{
+                        echo "This is task1"
+                    },
+                    tast2:{
+                        echo "This is task2"
+                    }
+                )
             }
-             steps{
-                 echo 'deploy to dev' 
-                 
-             }
-         }
-         stage('Deploye - uat'){
-            when{
-              branch 'staging'
-            }
-             steps{
-                 echo 'deploye to staging'
-                 
-             }
-         }
-         stage('Deploye - prod'){
-            when{
-              branch 'master'
-            }
-             steps{
-                 echo 'deploy to prod'
-                   
-             }
-         }
-     }
+        }
+    }
 }
